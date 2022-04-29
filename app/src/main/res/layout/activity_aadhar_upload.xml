@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AadharUploadActivity">
+
+    <ImageView
+        android:id="@+id/ivcircle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circle"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:text="Upload Your Aadhar"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/ivAadharImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginVertical="30dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="32dp"
+        android:background="@drawable/ic_upload"
+        />
+
+    <Button
+        android:id="@+id/btnSelectImage"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="32dp"
+        android:text="Select Image"/>
+    <Button
+        android:id="@+id/btnUploadImage"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="32dp"
+        android:text="Upload Image"/>
+
+
+
+
+
+
+</LinearLayout>

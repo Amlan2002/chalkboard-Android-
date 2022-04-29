@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "730430018132",
+    "project_id": "chalkboard-deec2",
+    "storage_bucket": "chalkboard-deec2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730430018132:android:757ae1a2108ca3c1de93c1",
+        "android_client_info": {
+          "package_name": "com.example.ChalkBoard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730430018132-5358efrlqdtknb4j95doqf6nk4g9pctk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ChalkBoard",
+            "certificate_hash": "2ec4efe99ec1a237dd3e8882108d4be97d16e5e6"
+          }
+        },
+        {
+          "client_id": "730430018132-g2r1v5feofkmrnqj5nk6ua83s4jjo641.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8JMi-m06ya2iehpRVKUKVwQ9Uu4Exvwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730430018132-g2r1v5feofkmrnqj5nk6ua83s4jjo641.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
